@@ -6,7 +6,7 @@ void main(){
   char name[100];
 
   printf("Who are you?\n> ");
-  scanf("%s",nawe);
+  scanf("%s",name);
   printf("Hello, John!\n");
   printf("Tossing a coin\n");
   for(a = 1; a < 4; a++){
