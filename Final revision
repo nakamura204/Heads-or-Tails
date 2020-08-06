@@ -3,7 +3,11 @@
 
 void main(){
   int a, h=0, t=0;
+  char name[100];
 
+  printf("Who are you?\n> ");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
   printf("Tossing a coin\n");
   for(a = 1; a < 4; a++){
     printf("Round %d: ",a);
@@ -17,7 +21,7 @@ void main(){
     }
   }
   printf("Heads: %d, Tails: %d",h,t);
-  if(h > t) printf("You won\n");
-  else printf("You lost\n");
+  if(h > t) printf("%s won\n",name);
+  else printf("%s lost\n",name);
   return 0;
 }
