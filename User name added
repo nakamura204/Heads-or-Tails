@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+void main(){
+  char name[100];
+  
+  printf("Who are you?\n> ");
+  scanf("%s",nawe);
+  printf("Hello, John!\n");
+  return 0;
+}
